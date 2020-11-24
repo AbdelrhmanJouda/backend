@@ -14,4 +14,7 @@ div {
     border: .5px solid rgba(112, 110, 110, 0.219);
     border-radius: 4px;
   }
-  
+  select {
+    padding: 12px 20px;
+    margin: 8px 0;
+  }

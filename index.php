@@ -15,8 +15,17 @@
     <label for="password">password</label>
     <input type="password" name="password" placeholder="password" value="">
     <br>
+    <label for="languge">Choose a Languge:</label>
+<select name="languge">
+  <option value="PHP">PHP</option>
+  <option value="Java">Java</option>
+  <option value="Javascript">Javascript</option>
+  <option value="Python">Python</option>
+</select> 
+<br>
     <button type="submit" name="submit"> submit </button>
-    </form>
+
+</form>
     </div>
 </body>
 </html>
