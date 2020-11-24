@@ -8,7 +8,7 @@
 </head>
 <body>
 <div>
-<form action="" method="POST" autocomplete="off">
+<form action="form.php" method="get" autocomplete="off">
     <label for="username">username</label>
     <input type="text" name="username" value='' id="myInput" placeholder="name" >
     <br>
