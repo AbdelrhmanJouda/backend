@@ -4,9 +4,11 @@ input  {
     margin: 8px 0;
   }
 div {
+    width: auto;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    
   }
   button {
     padding: 14px 20px;
@@ -17,4 +19,13 @@ div {
   select {
     padding: 12px 20px;
     margin: 8px 0;
+  }
+  textarea{
+    width: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 2px;
+    color: rgb(63, 62, 62);
+    font-size: 16px;
+    text-align: center;
   }

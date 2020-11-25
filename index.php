@@ -23,6 +23,10 @@
   <option value="Python">Python</option>
 </select> 
 <br>
+<textarea name="message" rows="10" cols="30" placeholder="Type your message" value="">
+
+</textarea> 
+<br>
     <button type="submit" name="submit"> submit </button>
 
 </form>
