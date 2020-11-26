@@ -3,13 +3,13 @@
 <?php
 
 echo "\n";
-echo "name =  ". $_GET["username"];
+echo "name =  ". $_POST["username"];
 echo "<br>";
-echo  "pass =  " . $_GET["password"]; 
+echo  "pass =  " . $_POST["password"]; 
 echo "<br>";
-echo "Lang =  " . $_GET["languge"];
+echo "Lang =  " . $_POST["languge"];
 echo "<br>";
-echo "Message =  " . $_GET["message"];
+echo "Message =  " . $_POST["message"];
 ?>
 </div>
 <form action="index.php">
