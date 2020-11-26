@@ -8,7 +8,7 @@
 </head>
 <body>
 <div>
-<form action="form.php" method="get" autocomplete="off">
+<form action="form.php" method="post" autocomplete="off">
     <label for="username">username</label>
     <input type="text" name="username" value='' id="myInput" placeholder="name" >
     <br>
@@ -23,13 +23,14 @@
   <option value="Python">Python</option>
 </select> 
 <br>
-<textarea name="message" rows="10" cols="30" placeholder="Type your message" value="">
+
+<textarea  name="message" rows="10" cols="30" placeholder="Type your message" value="">
 
 </textarea> 
 <br>
-    <button type="submit" name="submit"> submit </button>
+<button type="submit" name="submit"> submit </button>
 
 </form>
-    </div>
+</div>
 </body>
 </html>
